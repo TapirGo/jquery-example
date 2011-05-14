@@ -1,11 +1,11 @@
-h1. TapirGo JQuery plugin
+h1. TapirGo JQuery example
 
-A plugin that makes searching with TapirGo a breeze!
+An example that makes searching with TapirGo a breeze!
 
-h2. Using the plugin.
+h2. Using the example.
 
 1. Make sure you have JQuery in your site.
-2. Add the plugin to your site (either by linking it directly or get the source).
+2. Add the tapirgo.js to your site.
 3. Add the data attribute to the div you want the search results in. (see example)
 
 example:
