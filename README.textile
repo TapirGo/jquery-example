@@ -2,6 +2,8 @@ h1. TapirGo JQuery example
 
 An example that makes searching with TapirGo a breeze!
 
+Live example at "http://tapirgo.com/example/index.html":http://tapirgo.com/example/index.html
+
 h2. Using the example.
 
 1. Make sure you have JQuery in your site.
