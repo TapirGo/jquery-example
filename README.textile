@@ -1,13 +1,13 @@
-h1. TapirGo JQuery example
+h1. Tapir JQuery example
 
-An example that makes searching with TapirGo a breeze!
+An example that makes searching with Tapir a breeze!
 
 Live example at "http://tapirgo.com/example/index.html":http://tapirgo.com/example/index.html
 
 h2. Using the example.
 
 1. Make sure you have JQuery in your site.
-2. Add the tapirgo.js to your site.
+2. Add the tapir.js to your site.
 3. Add the data attribute to the div you want the search results in. (see example)
 
 example:
@@ -19,16 +19,16 @@ example:
       <meta charset='utf-8'>
       <title>A tapir powered search site.</title>
       <script src="/javascripts/jquery.js" type="text/javascript"></script>
-      <script src="/javascripts/tapirgo.js" type="text/javascript"></script>
+      <script src="/javascripts/tapir.js" type="text/javascript"></script>
     </head>
     <body>
       <h1>My search results</h1>
-      <div id="tapirgo_search_results" data-api_key="4dce6da43f61b05bff000052">
+      <div id="tapir_search_results" data-api_key="4dce6da43f61b05bff000052">
 
       </div>
     </body>
   </html>
 </code></pre>
 
-The plugin will search for a div named "tapirgo_search_results" and use that to replace the content with the actual results.
+The plugin will search for a div named "tapir_search_results" and use that to replace the content with the actual results.
 It uses the api key from the data-api_key attribute and the query from the url (url should have the ?query= parameter for search to commence)

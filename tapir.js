@@ -1,7 +1,3 @@
-/*
- * TapirGo
- */
-
 $.urlParam = function(name){
  var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
  if (!results) { return 0; }
@@ -9,7 +5,7 @@ $.urlParam = function(name){
 }
 
 $('document').ready(function(){
-  $('#tapirgo_search_results').each(function(){
+  $('#tapir_search_results').each(function(){
     var results_div = $(this);
     $.getJSON(
       'http://tapirgo.com/api/1/search.json?token=' + results_div.data('api_key') + '&query=' + $.urlParam('query') + '&callback=?',
